@@ -1,0 +1,264 @@
+\hypertarget{users_8c}{}\section{Riferimenti per il file src/users.c}
+\label{users_8c}\index{src/users.\+c@{src/users.\+c}}
+{\ttfamily \#include \char`\"{}users.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}utility.\+h\char`\"{}}\newline
+\subsection*{Funzioni}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{users_8c_ae111f50737d7141aaeeaeffbc1dc8406}{new\+User} (\hyperlink{structgamer}{gamer} gamers\mbox{[}$\,$\mbox{]}, int $\ast$pcont\+Us)
+\begin{DoxyCompactList}\small\item\em La procedura permette di aggiungere un nuovo giocatore al database, effettua dei controlli sui dati inseriti e ne verifica la validita\textquotesingle{}. \end{DoxyCompactList}\item 
+void \hyperlink{users_8c_a1c3c0f3f220986826d2c0bb3a2ea9209}{mod\+User} (\hyperlink{structgamer}{gamer} gamers\mbox{[}$\,$\mbox{]}, int cont\+Us)
+\begin{DoxyCompactList}\small\item\em La procedura permette di modificare i dati riguardanti un utente gia\textquotesingle{} inserito, esegue dei controlli sui dati inseriti e ne verifica la validita\textquotesingle{}. \end{DoxyCompactList}\item 
+void \hyperlink{users_8c_a78de5a613a3b6844288c762b44f925c6}{add\+Credit} (\hyperlink{structgamer}{gamer} gamers\mbox{[}$\,$\mbox{]}, int cont\+Us)
+\begin{DoxyCompactList}\small\item\em La procedura svolge l\textquotesingle{}operazione di aggiunta dei crediti verso un giocatore, verifica gli eventuali inserimenti validi e stampa un messaggio di corretto inserimento. \end{DoxyCompactList}\item 
+void \hyperlink{users_8c_a3caac9c96779cf309f3bb9f8fd4bc0f5}{add\+Hours} (\hyperlink{structgamer}{gamer} gamers\mbox{[}$\,$\mbox{]}, int cont\+Us)
+\begin{DoxyCompactList}\small\item\em La procedura svolge l\textquotesingle{}operazione di aggiunta delle ore di gioco verso un giocatore, le ore di gioco sono sotto forma di numero intero, e hanno implicitamente la correlazione con altri dati del giocatore quali il livello ed il credito, infatti si utilizza la funzione x$^\wedge$2 per stabilire ogni quante ore bisogna aumentare il livello del giocatore e si aggiungono dei crediti dal valore di 0.\+05 euro per ogni ora che il giocatore trascorre sulla piattaforma. \end{DoxyCompactList}\item 
+int \hyperlink{users_8c_a8a2498f0f4022b55e7f22299e946bf69}{search\+User} (\hyperlink{structgamer}{gamer} gamers\mbox{[}$\,$\mbox{]}, int cont\+Us, char $\ast$nickname)
+\begin{DoxyCompactList}\small\item\em La funzione svolge il compito di controllare se un giocatore e\textquotesingle{} presente o no nel database. \end{DoxyCompactList}\item 
+void \hyperlink{users_8c_ade073d6f523f7e368992fb1c54f93470}{add\+Game} (\hyperlink{structgamer}{gamer} gamers\mbox{[}$\,$\mbox{]}, \hyperlink{structgame}{game} store\mbox{[}$\,$\mbox{]}, \hyperlink{structowned}{owned} relat\mbox{[}$\,$\mbox{]}, int $\ast$relat\+\_\+len, int cont\+Us, int cont\+Ga)
+\begin{DoxyCompactList}\small\item\em La procedura svolge il compito di aggiunta di un gioco verso un giocatore, effettua dei controlli sugli inserimenti e offre la possibilita\textquotesingle{} di visionare la lista dei giochi attualmente presenti nello store. \end{DoxyCompactList}\item 
+int \hyperlink{users_8c_a70cf9eab96fb384b86c446bc19086cc5}{buy\+Game} (\hyperlink{structgamer}{gamer} $\ast$pplayer, \hyperlink{structgame}{game} app, \hyperlink{structowned}{owned} relat\mbox{[}$\,$\mbox{]}, int $\ast$relat\+\_\+len, float priceG)
+\begin{DoxyCompactList}\small\item\em La funzione svolge il compito di controllare se un determinato giocatore ha la possibilita\textquotesingle{} di acquistare un videogioco dallo store, effettua dei controlli sul prezzo del gioco e sui crediti posseduti dal giocatore e se e\textquotesingle{} possibile effettuare l\textquotesingle{}acquisto aggiunge all\textquotesingle{}array delle relazioni la coppia $<$videogioco-\/giocatore$>$, altrimenti ritorna valori di errore. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentazione delle funzioni}
+\mbox{\Hypertarget{users_8c_a78de5a613a3b6844288c762b44f925c6}\label{users_8c_a78de5a613a3b6844288c762b44f925c6}} 
+\index{users.\+c@{users.\+c}!add\+Credit@{add\+Credit}}
+\index{add\+Credit@{add\+Credit}!users.\+c@{users.\+c}}
+\subsubsection{\texorpdfstring{add\+Credit()}{addCredit()}}
+{\footnotesize\ttfamily void add\+Credit (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer}}]{gamers\mbox{[}$\,$\mbox{]},  }\item[{int}]{cont\+Us }\end{DoxyParamCaption})}
+
+
+
+La procedura svolge l\textquotesingle{}operazione di aggiunta dei crediti verso un giocatore, verifica gli eventuali inserimenti validi e stampa un messaggio di corretto inserimento. 
+
+La procedura aggiunge credito ad un giocatore.
+
+
+\begin{DoxyParams}{Parametri}
+{\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+{\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 216 del file users.\+c.
+
+
+
+Referenzia gamer\+::credit, e Set\+Color().
+
+
+
+Referenziato da main().
+
+\mbox{\Hypertarget{users_8c_ade073d6f523f7e368992fb1c54f93470}\label{users_8c_ade073d6f523f7e368992fb1c54f93470}} 
+\index{users.\+c@{users.\+c}!add\+Game@{add\+Game}}
+\index{add\+Game@{add\+Game}!users.\+c@{users.\+c}}
+\subsubsection{\texorpdfstring{add\+Game()}{addGame()}}
+{\footnotesize\ttfamily void add\+Game (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer}}]{gamers\mbox{[}$\,$\mbox{]},  }\item[{\hyperlink{structgame}{game}}]{store\mbox{[}$\,$\mbox{]},  }\item[{\hyperlink{structowned}{owned}}]{relat\mbox{[}$\,$\mbox{]},  }\item[{int $\ast$}]{relat\+\_\+len,  }\item[{int}]{cont\+Us,  }\item[{int}]{cont\+Ga }\end{DoxyParamCaption})}
+
+
+
+La procedura svolge il compito di aggiunta di un gioco verso un giocatore, effettua dei controlli sugli inserimenti e offre la possibilita\textquotesingle{} di visionare la lista dei giochi attualmente presenti nello store. 
+
+La procedura aggiunge un videogioco ad un giocatore.
+
+La procedura si interfaccia con la funzione \textquotesingle{}buy\+Game\textquotesingle{} per gestire la possibilita\textquotesingle{} di aggiunta del videogioco in base al prezzo del videogioco e ai crediti del giocatore, se non e\textquotesingle{} possibile aggiungere il gioco verra\textquotesingle{} mostrato un messaggio di errore.
+
+
+\begin{DoxyParams}{Parametri}
+{\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+{\em store} & e\textquotesingle{} l\textquotesingle{}array contenente i videogiochi \\
+\hline
+{\em relat} & e\textquotesingle{} l\textquotesingle{}array contenente i possessi dei videogiochi da parte dei giocatori \\
+\hline
+{\em relat\+\_\+len} & e\textquotesingle{} una variabile che memorizza quante relazioni $<$videogioco-\/giocatore$>$ ci sono \\
+\hline
+{\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+{\em cont\+Ga} & e\textquotesingle{} il contatore del numero dei videogiochi \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 366 del file users.\+c.
+
+
+
+Referenzia buy\+Game(), game\+::price, print\+Game(), search\+Game(), search\+User(), e Set\+Color().
+
+
+
+Referenziato da main().
+
+\mbox{\Hypertarget{users_8c_a3caac9c96779cf309f3bb9f8fd4bc0f5}\label{users_8c_a3caac9c96779cf309f3bb9f8fd4bc0f5}} 
+\index{users.\+c@{users.\+c}!add\+Hours@{add\+Hours}}
+\index{add\+Hours@{add\+Hours}!users.\+c@{users.\+c}}
+\subsubsection{\texorpdfstring{add\+Hours()}{addHours()}}
+{\footnotesize\ttfamily void add\+Hours (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer}}]{gamers\mbox{[}$\,$\mbox{]},  }\item[{int}]{cont\+Us }\end{DoxyParamCaption})}
+
+
+
+La procedura svolge l\textquotesingle{}operazione di aggiunta delle ore di gioco verso un giocatore, le ore di gioco sono sotto forma di numero intero, e hanno implicitamente la correlazione con altri dati del giocatore quali il livello ed il credito, infatti si utilizza la funzione x$^\wedge$2 per stabilire ogni quante ore bisogna aumentare il livello del giocatore e si aggiungono dei crediti dal valore di 0.\+05 euro per ogni ora che il giocatore trascorre sulla piattaforma. 
+
+La procedura aggiunge ore di gioco ad un giocatore.
+
+
+\begin{DoxyParams}{Parametri}
+{\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+{\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 277 del file users.\+c.
+
+
+
+Referenzia gamer\+::credit, gamer\+::level, level\+Check(), gamer\+::played, search\+User(), e Set\+Color().
+
+
+
+Referenziato da main().
+
+\mbox{\Hypertarget{users_8c_a70cf9eab96fb384b86c446bc19086cc5}\label{users_8c_a70cf9eab96fb384b86c446bc19086cc5}} 
+\index{users.\+c@{users.\+c}!buy\+Game@{buy\+Game}}
+\index{buy\+Game@{buy\+Game}!users.\+c@{users.\+c}}
+\subsubsection{\texorpdfstring{buy\+Game()}{buyGame()}}
+{\footnotesize\ttfamily int buy\+Game (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer} $\ast$}]{pplayer,  }\item[{\hyperlink{structgame}{game}}]{app,  }\item[{\hyperlink{structowned}{owned}}]{relat\mbox{[}$\,$\mbox{]},  }\item[{int $\ast$}]{relat\+\_\+len,  }\item[{float}]{priceG }\end{DoxyParamCaption})}
+
+
+
+La funzione svolge il compito di controllare se un determinato giocatore ha la possibilita\textquotesingle{} di acquistare un videogioco dallo store, effettua dei controlli sul prezzo del gioco e sui crediti posseduti dal giocatore e se e\textquotesingle{} possibile effettuare l\textquotesingle{}acquisto aggiunge all\textquotesingle{}array delle relazioni la coppia $<$videogioco-\/giocatore$>$, altrimenti ritorna valori di errore. 
+
+La funzione controlla se e\textquotesingle{} possibile aggiungere un videogioco al giocatore o no.
+
+
+\begin{DoxyParams}{Parametri}
+{\em pplayer} & e\textquotesingle{} il puntatore al giocatore a cui si desidera aggiungere il videogioco \\
+\hline
+{\em app} & e\textquotesingle{} il gioco che abbiamo preso in questione \\
+\hline
+{\em relat} & e\textquotesingle{} l\textquotesingle{}array contenente i possessi dei videogiochi da parte dei giocatori \\
+\hline
+{\em relat\+\_\+len} & e\textquotesingle{} una variabile che memorizza quante relazioni $<$videogioco-\/giocatore$>$ ci sono \\
+\hline
+{\em priceG} & e\textquotesingle{} una variabile che contiene il prezzo del videogioco in questione \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Restituisce}
+-\/1 se il giocatore possiede gia\textquotesingle{} questo videogioco, -\/2 se il giocatore non ha abbastanza crediti, 0 se l\textquotesingle{}acquisto e\textquotesingle{} andato a buon fine 
+\end{DoxyReturn}
+
+
+Definizione alla linea 451 del file users.\+c.
+
+
+
+Referenzia game\+::code, gamer\+::credit, e gamer\+::nickname.
+
+
+
+Referenziato da add\+Game().
+
+\mbox{\Hypertarget{users_8c_a1c3c0f3f220986826d2c0bb3a2ea9209}\label{users_8c_a1c3c0f3f220986826d2c0bb3a2ea9209}} 
+\index{users.\+c@{users.\+c}!mod\+User@{mod\+User}}
+\index{mod\+User@{mod\+User}!users.\+c@{users.\+c}}
+\subsubsection{\texorpdfstring{mod\+User()}{modUser()}}
+{\footnotesize\ttfamily void mod\+User (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer}}]{gamers\mbox{[}$\,$\mbox{]},  }\item[{int}]{cont\+Us }\end{DoxyParamCaption})}
+
+
+
+La procedura permette di modificare i dati riguardanti un utente gia\textquotesingle{} inserito, esegue dei controlli sui dati inseriti e ne verifica la validita\textquotesingle{}. 
+
+La procedura modifica i dati di un giocatore.
+
+
+\begin{DoxyParams}{Parametri}
+{\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+{\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 118 del file users.\+c.
+
+
+
+Referenzia gamer\+::gender, search\+Mail(), Set\+Color(), e ver\+Email().
+
+
+
+Referenziato da main().
+
+\mbox{\Hypertarget{users_8c_ae111f50737d7141aaeeaeffbc1dc8406}\label{users_8c_ae111f50737d7141aaeeaeffbc1dc8406}} 
+\index{users.\+c@{users.\+c}!new\+User@{new\+User}}
+\index{new\+User@{new\+User}!users.\+c@{users.\+c}}
+\subsubsection{\texorpdfstring{new\+User()}{newUser()}}
+{\footnotesize\ttfamily void new\+User (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer}}]{gamers\mbox{[}$\,$\mbox{]},  }\item[{int $\ast$}]{pcont\+Us }\end{DoxyParamCaption})}
+
+
+
+La procedura permette di aggiungere un nuovo giocatore al database, effettua dei controlli sui dati inseriti e ne verifica la validita\textquotesingle{}. 
+
+La procedura aggiunge un giocatore al database.
+
+
+\begin{DoxyParams}{Parametri}
+{\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+{\em pcont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 15 del file users.\+c.
+
+
+
+Referenzia gamer\+::gender, gamer\+::level, search\+Mail(), search\+User(), Set\+Color(), e ver\+Email().
+
+
+
+Referenziato da main().
+
+\mbox{\Hypertarget{users_8c_a8a2498f0f4022b55e7f22299e946bf69}\label{users_8c_a8a2498f0f4022b55e7f22299e946bf69}} 
+\index{users.\+c@{users.\+c}!search\+User@{search\+User}}
+\index{search\+User@{search\+User}!users.\+c@{users.\+c}}
+\subsubsection{\texorpdfstring{search\+User()}{searchUser()}}
+{\footnotesize\ttfamily int search\+User (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer}}]{gamers\mbox{[}$\,$\mbox{]},  }\item[{int}]{cont\+Us,  }\item[{char $\ast$}]{nickname }\end{DoxyParamCaption})}
+
+
+
+La funzione svolge il compito di controllare se un giocatore e\textquotesingle{} presente o no nel database. 
+
+La funzione controlla se un giocatore e\textquotesingle{} presente o no.
+
+
+\begin{DoxyParams}{Parametri}
+{\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+{\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+{\em nickname} & e\textquotesingle{} il parametro che passo che equivale al nickname per effettuare la verifica, un array di caratteri \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Restituisce}
+i = la posizione del giocatore nel database se esiste, -\/1 altrimenti se non esiste nessun giocatore con quel nickname 
+\end{DoxyReturn}
+
+
+Definizione alla linea 339 del file users.\+c.
+
+
+
+Referenziato da add\+Game(), add\+Hours(), game\+List\+U(), new\+User(), e print\+File\+Games\+User().
+

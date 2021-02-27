@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Strutture dati"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Strutture dati"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="game"><param name="Local" value="structgame.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="agemin"><param name="Local" value="structgame.html#a998f339d815e453842cbc20c5ab34d4d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="category"><param name="Local" value="structgame.html#ab3ae261d92cc8a130d350f72d092846d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="code"><param name="Local" value="structgame.html#aa8fa3d611dae3fe6dbf21a9a8c159f50"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="name"><param name="Local" value="structgame.html#a6a9fb0917f60e741c09f7955feccfd7d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="price"><param name="Local" value="structgame.html#ae1753fa006ae874f813b8e52f5530c86"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="production"><param name="Local" value="structgame.html#a21702a02fe973a0e76d0976c4aa2e7b5"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="gamer"><param name="Local" value="structgamer.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="credit"><param name="Local" value="structgamer.html#addda65dfc0a61d7f0f70911f97a9d8f2"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="email"><param name="Local" value="structgamer.html#ae73e44d41ea32b5354bd60db7928ef11"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="gender"><param name="Local" value="structgamer.html#a4c445cd1faa7464bfb01a1745a23c85a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="level"><param name="Local" value="structgamer.html#a611b73d05bac2a5a2ee6b4de489e18bb"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="name"><param name="Local" value="structgamer.html#a0cd218f98cf7a26401782bcca0fa653e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nickname"><param name="Local" value="structgamer.html#add226e4468980412981fd8ee76f61d85"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="played"><param name="Local" value="structgamer.html#a61d06d292744f84b81e6f2491948d931"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="surname"><param name="Local" value="structgamer.html#a57053b3442e98353ebab5a051926c7d5"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="owned"><param name="Local" value="structowned.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="idgame"><param name="Local" value="structowned.html#a466a0b0fb52807343747853427e71365"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="iduser"><param name="Local" value="structowned.html#a773d204967beb2a8a56603382086f1e1"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Indice delle strutture dati"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Campi dei dati"><param name="Local" value="functions.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Tutto"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Variabili"><param name="Local" value="functions_vars.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="File"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Elenco dei file"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="src"><param name="Local" value="dir_68267d1309a1af8e8297ef4c3efbcdba.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="CasoDiStudio.c"><param name="Local" value="_caso_di_studio_8c.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="main"><param name="Local" value="_caso_di_studio_8c.html#a840291bc02cba5474a4cb46a9b9566fe"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="users.c"><param name="Local" value="users_8c.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="addCredit"><param name="Local" value="users_8c.html#a78de5a613a3b6844288c762b44f925c6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="addGame"><param name="Local" value="users_8c.html#ade073d6f523f7e368992fb1c54f93470"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="addHours"><param name="Local" value="users_8c.html#a3caac9c96779cf309f3bb9f8fd4bc0f5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="buyGame"><param name="Local" value="users_8c.html#a70cf9eab96fb384b86c446bc19086cc5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="modUser"><param name="Local" value="users_8c.html#a1c3c0f3f220986826d2c0bb3a2ea9209"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="newUser"><param name="Local" value="users_8c.html#ae111f50737d7141aaeeaeffbc1dc8406"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="searchUser"><param name="Local" value="users_8c.html#a8a2498f0f4022b55e7f22299e946bf69"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="users.h"><param name="Local" value="users_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="gamer"><param name="Local" value="structgamer.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="credit"><param name="Local" value="structgamer.html#addda65dfc0a61d7f0f70911f97a9d8f2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="email"><param name="Local" value="structgamer.html#ae73e44d41ea32b5354bd60db7928ef11"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="gender"><param name="Local" value="structgamer.html#a4c445cd1faa7464bfb01a1745a23c85a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="level"><param name="Local" value="structgamer.html#a611b73d05bac2a5a2ee6b4de489e18bb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="name"><param name="Local" value="structgamer.html#a0cd218f98cf7a26401782bcca0fa653e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="nickname"><param name="Local" value="structgamer.html#add226e4468980412981fd8ee76f61d85"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="played"><param name="Local" value="structgamer.html#a61d06d292744f84b81e6f2491948d931"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="surname"><param name="Local" value="structgamer.html#a57053b3442e98353ebab5a051926c7d5"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="game"><param name="Local" value="structgame.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="agemin"><param name="Local" value="structgame.html#a998f339d815e453842cbc20c5ab34d4d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="category"><param name="Local" value="structgame.html#ab3ae261d92cc8a130d350f72d092846d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="code"><param name="Local" value="structgame.html#aa8fa3d611dae3fe6dbf21a9a8c159f50"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="name"><param name="Local" value="structgame.html#a6a9fb0917f60e741c09f7955feccfd7d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="price"><param name="Local" value="structgame.html#ae1753fa006ae874f813b8e52f5530c86"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="production"><param name="Local" value="structgame.html#a21702a02fe973a0e76d0976c4aa2e7b5"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="owned"><param name="Local" value="structowned.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="idgame"><param name="Local" value="structowned.html#a466a0b0fb52807343747853427e71365"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="iduser"><param name="Local" value="structowned.html#a773d204967beb2a8a56603382086f1e1"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="addCredit"><param name="Local" value="users_8h.html#a78de5a613a3b6844288c762b44f925c6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="addGame"><param name="Local" value="users_8h.html#ade073d6f523f7e368992fb1c54f93470"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="addHours"><param name="Local" value="users_8h.html#a3caac9c96779cf309f3bb9f8fd4bc0f5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="buyGame"><param name="Local" value="users_8h.html#a70cf9eab96fb384b86c446bc19086cc5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="modUser"><param name="Local" value="users_8h.html#a1c3c0f3f220986826d2c0bb3a2ea9209"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="newUser"><param name="Local" value="users_8h.html#ae3c7d669167750860cc64c0e68e91bae"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="searchUser"><param name="Local" value="users_8h.html#a8a2498f0f4022b55e7f22299e946bf69"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="utility.c"><param name="Local" value="utility_8c.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="gameListU"><param name="Local" value="utility_8c.html#a9615fbeadd58690a9cc6deacc292e20d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="levelCheck"><param name="Local" value="utility_8c.html#a227e00149ea0b20c7a68c7008f73de1f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ordLevel"><param name="Local" value="utility_8c.html#a9800b0f00e8105e4a50c1f4fc742f9c2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="printFile"><param name="Local" value="utility_8c.html#ac90d2f410fef35f805505f2433b09059"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="printFileGamesUser"><param name="Local" value="utility_8c.html#a19534711e147560355f78df6b59f50a9"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="printFileRelat"><param name="Local" value="utility_8c.html#aebe9fa1b0659bd2aa71a125b51657cf6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="printGame"><param name="Local" value="utility_8c.html#a1a8caf77687fb8939a0278375bc95ee3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="printUser"><param name="Local" value="utility_8c.html#a2a0379b49baec971efe29d96c29e9387"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="searchGame"><param name="Local" value="utility_8c.html#abeb133f9e44cef243f6137ff8935c69d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="searchGameStore"><param name="Local" value="utility_8c.html#a631958fac2903c4626af0aa685957047"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="searchMail"><param name="Local" value="utility_8c.html#a1fe98daabbc043c56f0019af8f80aa23"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SetColor"><param name="Local" value="utility_8c.html#afc681bb198f3c3fb6b19c2d1f89bc8b1"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="verEmail"><param name="Local" value="utility_8c.html#a2fab686afeab3a63f6124f2c5a0d9a26"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="utility.h"><param name="Local" value="utility_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FILEGAMELIST"><param name="Local" value="utility_8h.html#a028a1b0d99ad0c76975c5f939bc5ae8c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FILEGAMES"><param name="Local" value="utility_8h.html#ad9cb8a00dbec438aae0b4924eaa5f737"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FILERELAT"><param name="Local" value="utility_8h.html#a1c81ffcf43c6ed5d2adb5ed6e7f9ebae"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FILEUSERS"><param name="Local" value="utility_8h.html#a6f8072fef725ab89b6297536dcd20055"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="MAX"><param name="Local" value="utility_8h.html#a392fb874e547e582e9c66a08a1f23326"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="gameListU"><param name="Local" value="utility_8h.html#a9615fbeadd58690a9cc6deacc292e20d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="levelCheck"><param name="Local" value="utility_8h.html#a227e00149ea0b20c7a68c7008f73de1f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ordLevel"><param name="Local" value="utility_8h.html#a9800b0f00e8105e4a50c1f4fc742f9c2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="printFile"><param name="Local" value="utility_8h.html#ac90d2f410fef35f805505f2433b09059"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="printFileGamesUser"><param name="Local" value="utility_8h.html#a19534711e147560355f78df6b59f50a9"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="printFileRelat"><param name="Local" value="utility_8h.html#aebe9fa1b0659bd2aa71a125b51657cf6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="printGame"><param name="Local" value="utility_8h.html#a1a8caf77687fb8939a0278375bc95ee3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="printUser"><param name="Local" value="utility_8h.html#a2a0379b49baec971efe29d96c29e9387"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="searchGame"><param name="Local" value="utility_8h.html#abeb133f9e44cef243f6137ff8935c69d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="searchGameStore"><param name="Local" value="utility_8h.html#a631958fac2903c4626af0aa685957047"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="searchMail"><param name="Local" value="utility_8h.html#a1fe98daabbc043c56f0019af8f80aa23"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SetColor"><param name="Local" value="utility_8h.html#af9824dabe1ac871b6f57fea17bf42992"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="verEmail"><param name="Local" value="utility_8h.html#a2fab686afeab3a63f6124f2c5a0d9a26"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Elementi globali"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Tutto"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Funzioni"><param name="Local" value="globals_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Definizioni"><param name="Local" value="globals_defs.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>

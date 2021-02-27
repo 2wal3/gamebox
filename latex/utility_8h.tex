@@ -1,0 +1,639 @@
+\hypertarget{utility_8h}{}\section{Riferimenti per il file src/utility.h}
+\label{utility_8h}\index{src/utility.\+h@{src/utility.\+h}}
+
+
+La libreria dispone di alcune funzioni utili alla manipolazione dei dati di giocatori, videogiochi e file, come modifiche sui dati, ricerche, ordinamenti, stampe su file.  
+
+
+\subsection*{Definizioni}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{utility_8h_a392fb874e547e582e9c66a08a1f23326}{M\+AX}~100
+\begin{DoxyCompactList}\small\item\em Definisco una costante M\+AX con un valore intero 100. \end{DoxyCompactList}\item 
+\#define \hyperlink{utility_8h_a6f8072fef725ab89b6297536dcd20055}{F\+I\+L\+E\+U\+S\+E\+RS}~\char`\"{}users.\+csv\char`\"{}
+\begin{DoxyCompactList}\small\item\em Definisco il file dei giocatori. \end{DoxyCompactList}\item 
+\#define \hyperlink{utility_8h_ad9cb8a00dbec438aae0b4924eaa5f737}{F\+I\+L\+E\+G\+A\+M\+ES}~\char`\"{}store.\+csv\char`\"{}
+\begin{DoxyCompactList}\small\item\em Definisco il file dei videogiochi. \end{DoxyCompactList}\item 
+\#define \hyperlink{utility_8h_a1c81ffcf43c6ed5d2adb5ed6e7f9ebae}{F\+I\+L\+E\+R\+E\+L\+AT}~\char`\"{}relat.\+csv\char`\"{}
+\begin{DoxyCompactList}\small\item\em Definisco il file delle relazioni. \end{DoxyCompactList}\item 
+\#define \hyperlink{utility_8h_a028a1b0d99ad0c76975c5f939bc5ae8c}{F\+I\+L\+E\+G\+A\+M\+E\+L\+I\+ST}~\char`\"{}games.\+csv\char`\"{}
+\begin{DoxyCompactList}\small\item\em Definisco il file della lista dei giochi di un giocatore. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Funzioni}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{utility_8h_a1fe98daabbc043c56f0019af8f80aa23}{search\+Mail} (\hyperlink{structgamer}{gamer} gamers\mbox{[}$\,$\mbox{]}, int cont\+Us, char $\ast$email)
+\begin{DoxyCompactList}\small\item\em La funzione svolge il compito di controllare se un\textquotesingle{}e-\/mail e\textquotesingle{} presente o no nel database. \end{DoxyCompactList}\item 
+int \hyperlink{utility_8h_a2fab686afeab3a63f6124f2c5a0d9a26}{ver\+Email} (char $\ast$email)
+\begin{DoxyCompactList}\small\item\em La funzione controlla che l\textquotesingle{}e-\/mail inserita sia valida o no. \end{DoxyCompactList}\item 
+int \hyperlink{utility_8h_a227e00149ea0b20c7a68c7008f73de1f}{level\+Check} (int played, int level\+Old)
+\begin{DoxyCompactList}\small\item\em La funzione calcola il possibile incremento del livello. \end{DoxyCompactList}\item 
+void \hyperlink{utility_8h_a9800b0f00e8105e4a50c1f4fc742f9c2}{ord\+Level} (\hyperlink{structgamer}{gamer} gamers\mbox{[}$\,$\mbox{]}, int cont\+Us)
+\begin{DoxyCompactList}\small\item\em La procedura opera un ordinamento decrescente in base al livello dei giocatori. \end{DoxyCompactList}\item 
+void \hyperlink{utility_8h_a9615fbeadd58690a9cc6deacc292e20d}{game\+ListU} (\hyperlink{structgamer}{gamer} gamers\mbox{[}$\,$\mbox{]}, \hyperlink{structgame}{game} store\mbox{[}$\,$\mbox{]}, \hyperlink{structowned}{owned} relat\mbox{[}$\,$\mbox{]}, int relat\+\_\+len, int cont\+Us, int cont\+Ga)
+\begin{DoxyCompactList}\small\item\em La procedura visualizza la lista dei videogiochi posseduti da un giocatore. \end{DoxyCompactList}\item 
+int \hyperlink{utility_8h_abeb133f9e44cef243f6137ff8935c69d}{search\+Game} (\hyperlink{structgame}{game} store\mbox{[}$\,$\mbox{]}, int cont\+Ga, char $\ast$code\+Ga)
+\begin{DoxyCompactList}\small\item\em La funzione svolge il compito di controllare se un videogioco e\textquotesingle{} presente o no nel database. \end{DoxyCompactList}\item 
+void \hyperlink{utility_8h_a631958fac2903c4626af0aa685957047}{search\+Game\+Store} (\hyperlink{structgame}{game} store\mbox{[}$\,$\mbox{]}, int cont\+Ga)
+\begin{DoxyCompactList}\small\item\em La procedura si occupa della ricerca di un videogioco nello store. \end{DoxyCompactList}\item 
+void \hyperlink{utility_8h_a2a0379b49baec971efe29d96c29e9387}{print\+User} (\hyperlink{structgamer}{gamer} gamers\mbox{[}$\,$\mbox{]}, int i)
+\begin{DoxyCompactList}\small\item\em La procedura visualizza tutti i dati di un giocatore. \end{DoxyCompactList}\item 
+void \hyperlink{utility_8h_a1a8caf77687fb8939a0278375bc95ee3}{print\+Game} (\hyperlink{structgame}{game} store\mbox{[}$\,$\mbox{]}, int i)
+\begin{DoxyCompactList}\small\item\em La procedura visualizza tutti i dati relativi ad un videogioco. \end{DoxyCompactList}\item 
+void \hyperlink{utility_8h_ac90d2f410fef35f805505f2433b09059}{print\+File} (\hyperlink{structgamer}{gamer} gamers\mbox{[}$\,$\mbox{]}, int cont\+Us)
+\begin{DoxyCompactList}\small\item\em La procedura stampa su file tutti i dati dei giocatori. \end{DoxyCompactList}\item 
+void \hyperlink{utility_8h_aebe9fa1b0659bd2aa71a125b51657cf6}{print\+File\+Relat} (\hyperlink{structowned}{owned} relat\mbox{[}$\,$\mbox{]}, int relat\+\_\+len)
+\begin{DoxyCompactList}\small\item\em La procedura stampa su file tutte le relazioni $<$giocatore-\/videogioco$>$ che sono presenti sul database. \end{DoxyCompactList}\item 
+void \hyperlink{utility_8h_a19534711e147560355f78df6b59f50a9}{print\+File\+Games\+User} (\hyperlink{structgamer}{gamer} gamers\mbox{[}$\,$\mbox{]}, \hyperlink{structgame}{game} store\mbox{[}$\,$\mbox{]}, \hyperlink{structowned}{owned} relat\mbox{[}$\,$\mbox{]}, int relat\+\_\+len, int cont\+Us, int cont\+Ga)
+\begin{DoxyCompactList}\small\item\em La procedura scrive su file la libreria dei videogiochi di un giocatore. \end{DoxyCompactList}\item 
+void \hyperlink{utility_8h_af9824dabe1ac871b6f57fea17bf42992}{Set\+Color} (short)
+\begin{DoxyCompactList}\small\item\em La procedura consente di cambiare il colore del testo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrizione dettagliata}
+La libreria dispone di alcune funzioni utili alla manipolazione dei dati di giocatori, videogiochi e file, come modifiche sui dati, ricerche, ordinamenti, stampe su file. 
+
+\begin{DoxyAuthor}{Autore}
+Maio Walter
+\end{DoxyAuthor}
+\begin{DoxyWarning}{Avvertimento}
+Un uso improprio della libreria potrebbe far crashare il programma. 
+\end{DoxyWarning}
+
+
+\subsection{Documentazione delle definizioni}
+\mbox{\Hypertarget{utility_8h_a028a1b0d99ad0c76975c5f939bc5ae8c}\label{utility_8h_a028a1b0d99ad0c76975c5f939bc5ae8c}} 
+\index{utility.\+h@{utility.\+h}!F\+I\+L\+E\+G\+A\+M\+E\+L\+I\+ST@{F\+I\+L\+E\+G\+A\+M\+E\+L\+I\+ST}}
+\index{F\+I\+L\+E\+G\+A\+M\+E\+L\+I\+ST@{F\+I\+L\+E\+G\+A\+M\+E\+L\+I\+ST}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{F\+I\+L\+E\+G\+A\+M\+E\+L\+I\+ST}{FILEGAMELIST}}
+{\footnotesize\ttfamily \#define F\+I\+L\+E\+G\+A\+M\+E\+L\+I\+ST~\char`\"{}games.\+csv\char`\"{}}
+
+
+
+Definisco il file della lista dei giochi di un giocatore. 
+
+
+
+Definizione alla linea 39 del file utility.\+h.
+
+\mbox{\Hypertarget{utility_8h_ad9cb8a00dbec438aae0b4924eaa5f737}\label{utility_8h_ad9cb8a00dbec438aae0b4924eaa5f737}} 
+\index{utility.\+h@{utility.\+h}!F\+I\+L\+E\+G\+A\+M\+ES@{F\+I\+L\+E\+G\+A\+M\+ES}}
+\index{F\+I\+L\+E\+G\+A\+M\+ES@{F\+I\+L\+E\+G\+A\+M\+ES}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{F\+I\+L\+E\+G\+A\+M\+ES}{FILEGAMES}}
+{\footnotesize\ttfamily \#define F\+I\+L\+E\+G\+A\+M\+ES~\char`\"{}store.\+csv\char`\"{}}
+
+
+
+Definisco il file dei videogiochi. 
+
+
+
+Definizione alla linea 29 del file utility.\+h.
+
+\mbox{\Hypertarget{utility_8h_a1c81ffcf43c6ed5d2adb5ed6e7f9ebae}\label{utility_8h_a1c81ffcf43c6ed5d2adb5ed6e7f9ebae}} 
+\index{utility.\+h@{utility.\+h}!F\+I\+L\+E\+R\+E\+L\+AT@{F\+I\+L\+E\+R\+E\+L\+AT}}
+\index{F\+I\+L\+E\+R\+E\+L\+AT@{F\+I\+L\+E\+R\+E\+L\+AT}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{F\+I\+L\+E\+R\+E\+L\+AT}{FILERELAT}}
+{\footnotesize\ttfamily \#define F\+I\+L\+E\+R\+E\+L\+AT~\char`\"{}relat.\+csv\char`\"{}}
+
+
+
+Definisco il file delle relazioni. 
+
+
+
+Definizione alla linea 34 del file utility.\+h.
+
+\mbox{\Hypertarget{utility_8h_a6f8072fef725ab89b6297536dcd20055}\label{utility_8h_a6f8072fef725ab89b6297536dcd20055}} 
+\index{utility.\+h@{utility.\+h}!F\+I\+L\+E\+U\+S\+E\+RS@{F\+I\+L\+E\+U\+S\+E\+RS}}
+\index{F\+I\+L\+E\+U\+S\+E\+RS@{F\+I\+L\+E\+U\+S\+E\+RS}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{F\+I\+L\+E\+U\+S\+E\+RS}{FILEUSERS}}
+{\footnotesize\ttfamily \#define F\+I\+L\+E\+U\+S\+E\+RS~\char`\"{}users.\+csv\char`\"{}}
+
+
+
+Definisco il file dei giocatori. 
+
+
+
+Definizione alla linea 24 del file utility.\+h.
+
+\mbox{\Hypertarget{utility_8h_a392fb874e547e582e9c66a08a1f23326}\label{utility_8h_a392fb874e547e582e9c66a08a1f23326}} 
+\index{utility.\+h@{utility.\+h}!M\+AX@{M\+AX}}
+\index{M\+AX@{M\+AX}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{M\+AX}{MAX}}
+{\footnotesize\ttfamily \#define M\+AX~100}
+
+
+
+Definisco una costante M\+AX con un valore intero 100. 
+
+
+
+Definizione alla linea 19 del file utility.\+h.
+
+
+
+Referenziato da main(), e ord\+Level().
+
+
+
+\subsection{Documentazione delle funzioni}
+\mbox{\Hypertarget{utility_8h_a9615fbeadd58690a9cc6deacc292e20d}\label{utility_8h_a9615fbeadd58690a9cc6deacc292e20d}} 
+\index{utility.\+h@{utility.\+h}!game\+ListU@{game\+ListU}}
+\index{game\+ListU@{game\+ListU}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{game\+List\+U()}{gameListU()}}
+{\footnotesize\ttfamily void game\+ListU (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer}}]{gamers\mbox{[}$\,$\mbox{]},  }\item[{\hyperlink{structgame}{game}}]{store\mbox{[}$\,$\mbox{]},  }\item[{\hyperlink{structowned}{owned}}]{relat\mbox{[}$\,$\mbox{]},  }\item[{int}]{relat\+\_\+len,  }\item[{int}]{cont\+Us,  }\item[{int}]{cont\+Ga }\end{DoxyParamCaption})}
+
+
+
+La procedura visualizza la lista dei videogiochi posseduti da un giocatore. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt in}  & {\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+\mbox{\tt in}  & {\em store} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei videogiochi \\
+\hline
+\mbox{\tt in}  & {\em relat} & e\textquotesingle{} l\textquotesingle{}array contenente i possessi dei videogiochi da parte dei giocatori \\
+\hline
+\mbox{\tt in}  & {\em relat\+\_\+len} & e\textquotesingle{} una variabile che memorizza quante relazioni $<$videogioco-\/giocatore$>$ ci sono \\
+\hline
+\mbox{\tt in}  & {\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+\mbox{\tt in}  & {\em cont\+Ga} & e\textquotesingle{} il contatore del numero dei videogiochi\\
+\hline
+\end{DoxyParams}
+La procedura visualizza la lista dei videogiochi posseduti da un giocatore.
+
+
+\begin{DoxyParams}{Parametri}
+{\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+{\em store} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei videogiochi \\
+\hline
+{\em relat} & e\textquotesingle{} l\textquotesingle{}array contenente i possessi dei videogiochi da parte dei giocatori \\
+\hline
+{\em relat\+\_\+len} & e\textquotesingle{} una variabile che memorizza quante relazioni $<$videogioco-\/giocatore$>$ ci sono \\
+\hline
+{\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+{\em cont\+Ga} & e\textquotesingle{} il contatore del numero dei videogiochi \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 113 del file utility.\+c.
+
+
+
+Referenzia search\+User(), e Set\+Color().
+
+
+
+Referenziato da main().
+
+\mbox{\Hypertarget{utility_8h_a227e00149ea0b20c7a68c7008f73de1f}\label{utility_8h_a227e00149ea0b20c7a68c7008f73de1f}} 
+\index{utility.\+h@{utility.\+h}!level\+Check@{level\+Check}}
+\index{level\+Check@{level\+Check}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{level\+Check()}{levelCheck()}}
+{\footnotesize\ttfamily int level\+Check (\begin{DoxyParamCaption}\item[{int}]{played,  }\item[{int}]{level\+Old }\end{DoxyParamCaption})}
+
+
+
+La funzione calcola il possibile incremento del livello. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt in}  & {\em played} & e\textquotesingle{} la variabile che contiene le ore di gioco che si stanno aumentando \\
+\hline
+\mbox{\tt in}  & {\em level\+Old} & e\textquotesingle{} il livello che passo alla funzione al momento della verifica dell\textquotesingle{}incremento \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Restituisce}
+level\+Old livello incrementato oppure stesso livello di partenza
+\end{DoxyReturn}
+La funzione calcola il possibile incremento del livello.
+
+
+\begin{DoxyParams}{Parametri}
+{\em played} & e\textquotesingle{} la variabile che contiene le ore di gioco che si stanno aumentando \\
+\hline
+{\em level\+Old} & e\textquotesingle{} il livello che passo alla funzione al momento della verifica dell\textquotesingle{}incremento \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Restituisce}
+level\+Old livello incrementato oppure stesso livello di partenza 
+\end{DoxyReturn}
+
+
+Definizione alla linea 55 del file utility.\+c.
+
+
+
+Referenziato da add\+Hours().
+
+\mbox{\Hypertarget{utility_8h_a9800b0f00e8105e4a50c1f4fc742f9c2}\label{utility_8h_a9800b0f00e8105e4a50c1f4fc742f9c2}} 
+\index{utility.\+h@{utility.\+h}!ord\+Level@{ord\+Level}}
+\index{ord\+Level@{ord\+Level}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{ord\+Level()}{ordLevel()}}
+{\footnotesize\ttfamily void ord\+Level (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer}}]{gamers\mbox{[}$\,$\mbox{]},  }\item[{int}]{cont\+Us }\end{DoxyParamCaption})}
+
+
+
+La procedura opera un ordinamento decrescente in base al livello dei giocatori. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt in}  & {\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+\mbox{\tt in}  & {\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori\\
+\hline
+\end{DoxyParams}
+La procedura opera un ordinamento decrescente in base al livello dei giocatori.
+
+
+\begin{DoxyParams}{Parametri}
+{\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+{\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 78 del file utility.\+c.
+
+
+
+Referenzia gamer\+::level, M\+AX, e print\+User().
+
+
+
+Referenziato da main().
+
+\mbox{\Hypertarget{utility_8h_ac90d2f410fef35f805505f2433b09059}\label{utility_8h_ac90d2f410fef35f805505f2433b09059}} 
+\index{utility.\+h@{utility.\+h}!print\+File@{print\+File}}
+\index{print\+File@{print\+File}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{print\+File()}{printFile()}}
+{\footnotesize\ttfamily void print\+File (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer}}]{gamers\mbox{[}$\,$\mbox{]},  }\item[{int}]{cont\+Us }\end{DoxyParamCaption})}
+
+
+
+La procedura stampa su file tutti i dati dei giocatori. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt in}  & {\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+\mbox{\tt in}  & {\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori\\
+\hline
+\end{DoxyParams}
+La procedura stampa su file tutti i dati dei giocatori.
+
+
+\begin{DoxyParams}{Parametri}
+{\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+{\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 258 del file utility.\+c.
+
+
+
+Referenziato da main().
+
+\mbox{\Hypertarget{utility_8h_a19534711e147560355f78df6b59f50a9}\label{utility_8h_a19534711e147560355f78df6b59f50a9}} 
+\index{utility.\+h@{utility.\+h}!print\+File\+Games\+User@{print\+File\+Games\+User}}
+\index{print\+File\+Games\+User@{print\+File\+Games\+User}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{print\+File\+Games\+User()}{printFileGamesUser()}}
+{\footnotesize\ttfamily void print\+File\+Games\+User (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer}}]{gamers\mbox{[}$\,$\mbox{]},  }\item[{\hyperlink{structgame}{game}}]{store\mbox{[}$\,$\mbox{]},  }\item[{\hyperlink{structowned}{owned}}]{relat\mbox{[}$\,$\mbox{]},  }\item[{int}]{relat\+\_\+len,  }\item[{int}]{cont\+Us,  }\item[{int}]{cont\+Ga }\end{DoxyParamCaption})}
+
+
+
+La procedura scrive su file la libreria dei videogiochi di un giocatore. 
+
+
+\begin{DoxyParams}{Parametri}
+{\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+{\em store} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei videogiochi \\
+\hline
+{\em relat} & e\textquotesingle{} l\textquotesingle{}array contenente tutte le relazioni $<$giocatore-\/videogioco$>$ \\
+\hline
+{\em relat\+\_\+len} & e\textquotesingle{} la dimensione dell\textquotesingle{}array e quindi il numero delle relazioni presenti \\
+\hline
+{\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+{\em cont\+Ga} & e\textquotesingle{} il contatore del numero dei videogiochi\\
+\hline
+\end{DoxyParams}
+La procedura scrive su file la libreria dei videogiochi di un giocatore.
+
+
+\begin{DoxyParams}{Parametri}
+{\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+{\em store} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei videogiochi \\
+\hline
+{\em relat} & e\textquotesingle{} l\textquotesingle{}array contenente tutte le relazioni $<$giocatore-\/videogioco$>$ \\
+\hline
+{\em relat\+\_\+len} & e\textquotesingle{} la dimensione dell\textquotesingle{}array e quindi il numero delle relazioni presenti \\
+\hline
+{\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+{\em cont\+Ga} & e\textquotesingle{} il contatore del numero dei videogiochi \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 303 del file utility.\+c.
+
+
+
+Referenzia search\+User(), e Set\+Color().
+
+
+
+Referenziato da main().
+
+\mbox{\Hypertarget{utility_8h_aebe9fa1b0659bd2aa71a125b51657cf6}\label{utility_8h_aebe9fa1b0659bd2aa71a125b51657cf6}} 
+\index{utility.\+h@{utility.\+h}!print\+File\+Relat@{print\+File\+Relat}}
+\index{print\+File\+Relat@{print\+File\+Relat}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{print\+File\+Relat()}{printFileRelat()}}
+{\footnotesize\ttfamily void print\+File\+Relat (\begin{DoxyParamCaption}\item[{\hyperlink{structowned}{owned}}]{relat\mbox{[}$\,$\mbox{]},  }\item[{int}]{relat\+\_\+len }\end{DoxyParamCaption})}
+
+
+
+La procedura stampa su file tutte le relazioni $<$giocatore-\/videogioco$>$ che sono presenti sul database. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt in}  & {\em relat} & e\textquotesingle{} l\textquotesingle{}array contenente tutte le relazioni $<$giocatore-\/videogioco$>$ \\
+\hline
+\mbox{\tt in}  & {\em relat\+\_\+len} & e\textquotesingle{} la dimensione dell\textquotesingle{}array e quindi il numero delle relazioni presenti\\
+\hline
+\end{DoxyParams}
+La procedura stampa su file tutte le relazioni $<$giocatore-\/videogioco$>$ che sono presenti sul database.
+
+
+\begin{DoxyParams}{Parametri}
+{\em relat} & e\textquotesingle{} l\textquotesingle{}array contenente tutte le relazioni $<$giocatore-\/videogioco$>$ \\
+\hline
+{\em relat\+\_\+len} & e\textquotesingle{} la dimensione dell\textquotesingle{}array e quindi il numero delle relazioni presenti \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 279 del file utility.\+c.
+
+
+
+Referenziato da main().
+
+\mbox{\Hypertarget{utility_8h_a1a8caf77687fb8939a0278375bc95ee3}\label{utility_8h_a1a8caf77687fb8939a0278375bc95ee3}} 
+\index{utility.\+h@{utility.\+h}!print\+Game@{print\+Game}}
+\index{print\+Game@{print\+Game}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{print\+Game()}{printGame()}}
+{\footnotesize\ttfamily void print\+Game (\begin{DoxyParamCaption}\item[{\hyperlink{structgame}{game}}]{store\mbox{[}$\,$\mbox{]},  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+La procedura visualizza tutti i dati relativi ad un videogioco. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt in}  & {\em store} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei videogiochi \\
+\hline
+\mbox{\tt in}  & {\em i} & e\textquotesingle{} la posizione del videogioco di cui si vogliono visualizzare i dati\\
+\hline
+ & {\em store} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei videogiochi \\
+\hline
+ & {\em i} & e\textquotesingle{} la posizione nell\textquotesingle{}array del videogioco di cui si vogliono visualizzare i dati \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 241 del file utility.\+c.
+
+
+
+Referenziato da add\+Game(), e main().
+
+\mbox{\Hypertarget{utility_8h_a2a0379b49baec971efe29d96c29e9387}\label{utility_8h_a2a0379b49baec971efe29d96c29e9387}} 
+\index{utility.\+h@{utility.\+h}!print\+User@{print\+User}}
+\index{print\+User@{print\+User}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{print\+User()}{printUser()}}
+{\footnotesize\ttfamily void print\+User (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer}}]{gamers\mbox{[}$\,$\mbox{]},  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+La procedura visualizza tutti i dati di un giocatore. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt in}  & {\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+ & {\em i} & e\textquotesingle{} la posizione del giocatore di cui si vogliono visualizzare i dati\\
+\hline
+ & {\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+ & {\em i} & e\textquotesingle{} la posizione dell\textquotesingle{}array del giocatore di cui si vogliono visualizzare i dati \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 223 del file utility.\+c.
+
+
+
+Referenziato da main(), e ord\+Level().
+
+\mbox{\Hypertarget{utility_8h_abeb133f9e44cef243f6137ff8935c69d}\label{utility_8h_abeb133f9e44cef243f6137ff8935c69d}} 
+\index{utility.\+h@{utility.\+h}!search\+Game@{search\+Game}}
+\index{search\+Game@{search\+Game}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{search\+Game()}{searchGame()}}
+{\footnotesize\ttfamily int search\+Game (\begin{DoxyParamCaption}\item[{\hyperlink{structgame}{game}}]{store\mbox{[}$\,$\mbox{]},  }\item[{int}]{cont\+Ga,  }\item[{char $\ast$}]{code\+Ga }\end{DoxyParamCaption})}
+
+
+
+La funzione svolge il compito di controllare se un videogioco e\textquotesingle{} presente o no nel database. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt in}  & {\em store} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei videogiochi \\
+\hline
+\mbox{\tt in}  & {\em cont\+Ga} & e\textquotesingle{} il contatore del numero dei videogiochi \\
+\hline
+\mbox{\tt in}  & {\em code\+Ga} & e\textquotesingle{} il parametro che equivale al codice del gioco che passo per effettuare la verifica, un array di caratteri \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Restituisce}
+i = la posizione del videogioco nel database se esiste, -\/1 altrimenti se non esiste nessun videogioco con quel codice
+\end{DoxyReturn}
+La funzione svolge il compito di controllare se un videogioco e\textquotesingle{} presente o no nel database.
+
+
+\begin{DoxyParams}{Parametri}
+{\em store} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei videogiochi \\
+\hline
+{\em cont\+Ga} & e\textquotesingle{} il contatore del numero dei videogiochi \\
+\hline
+{\em code\+Ga} & e\textquotesingle{} il parametro che equivale al codice del gioco che passo per effettuare la verifica, un array di caratteri \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Restituisce}
+i = la posizione del videogioco nel database se esiste, -\/1 altrimenti se non esiste nessun videogioco con quel codice 
+\end{DoxyReturn}
+
+
+Definizione alla linea 165 del file utility.\+c.
+
+
+
+Referenziato da add\+Game(), e search\+Game\+Store().
+
+\mbox{\Hypertarget{utility_8h_a631958fac2903c4626af0aa685957047}\label{utility_8h_a631958fac2903c4626af0aa685957047}} 
+\index{utility.\+h@{utility.\+h}!search\+Game\+Store@{search\+Game\+Store}}
+\index{search\+Game\+Store@{search\+Game\+Store}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{search\+Game\+Store()}{searchGameStore()}}
+{\footnotesize\ttfamily void search\+Game\+Store (\begin{DoxyParamCaption}\item[{\hyperlink{structgame}{game}}]{store\mbox{[}$\,$\mbox{]},  }\item[{int}]{cont\+Ga }\end{DoxyParamCaption})}
+
+
+
+La procedura si occupa della ricerca di un videogioco nello store. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt in}  & {\em store} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei videogiochi \\
+\hline
+\mbox{\tt in}  & {\em cont\+Ga} & e\textquotesingle{} il contatore del numero dei videogiochi\\
+\hline
+\end{DoxyParams}
+La procedura si occupa della ricerca di un videogioco nello store.
+
+
+\begin{DoxyParams}{Parametri}
+{\em store} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei videogiochi \\
+\hline
+{\em cont\+Ga} & e\textquotesingle{} il contatore del numero dei videogiochi \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 185 del file utility.\+c.
+
+
+
+Referenzia search\+Game(), e Set\+Color().
+
+
+
+Referenziato da main().
+
+\mbox{\Hypertarget{utility_8h_a1fe98daabbc043c56f0019af8f80aa23}\label{utility_8h_a1fe98daabbc043c56f0019af8f80aa23}} 
+\index{utility.\+h@{utility.\+h}!search\+Mail@{search\+Mail}}
+\index{search\+Mail@{search\+Mail}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{search\+Mail()}{searchMail()}}
+{\footnotesize\ttfamily int search\+Mail (\begin{DoxyParamCaption}\item[{\hyperlink{structgamer}{gamer}}]{gamers\mbox{[}$\,$\mbox{]},  }\item[{int}]{cont\+Us,  }\item[{char $\ast$}]{email }\end{DoxyParamCaption})}
+
+
+
+La funzione svolge il compito di controllare se un\textquotesingle{}e-\/mail e\textquotesingle{} presente o no nel database. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt in}  & {\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+\mbox{\tt in}  & {\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+\mbox{\tt in}  & {\em email} & e\textquotesingle{} il parametro che passo per effettuare la verifica, un array di caratteri \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Restituisce}
+i = la posizione dell\textquotesingle{}e-\/mail del giocatore nel database se esiste, -\/1 altrimenti se non esiste nessun giocatore con quell\textquotesingle{}e-\/mail
+\end{DoxyReturn}
+La funzione svolge il compito di controllare se un\textquotesingle{}e-\/mail e\textquotesingle{} presente o no nel database.
+
+
+\begin{DoxyParams}{Parametri}
+{\em gamers} & e\textquotesingle{} l\textquotesingle{}array contenente i dati dei giocatori \\
+\hline
+{\em cont\+Us} & e\textquotesingle{} il contatore del numero dei giocatori \\
+\hline
+{\em email} & e\textquotesingle{} il parametro che passo per effettuare la verifica, un array di caratteri \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Restituisce}
+i = la posizione dell\textquotesingle{}e-\/mail del giocatore nel database se esiste, -\/1 altrimenti se non esiste nessun giocatore con quell\textquotesingle{}e-\/mail 
+\end{DoxyReturn}
+
+
+Definizione alla linea 18 del file utility.\+c.
+
+
+
+Referenziato da mod\+User(), e new\+User().
+
+\mbox{\Hypertarget{utility_8h_af9824dabe1ac871b6f57fea17bf42992}\label{utility_8h_af9824dabe1ac871b6f57fea17bf42992}} 
+\index{utility.\+h@{utility.\+h}!Set\+Color@{Set\+Color}}
+\index{Set\+Color@{Set\+Color}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{Set\+Color()}{SetColor()}}
+{\footnotesize\ttfamily void Set\+Color (\begin{DoxyParamCaption}\item[{short}]{Color }\end{DoxyParamCaption})}
+
+
+
+La procedura consente di cambiare il colore del testo. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt in}  & {\em Color} & e\textquotesingle{} il parametro che richiede un numero che stabilisce il colore\\
+\hline
+ & {\em Color} & e\textquotesingle{} il parametro che richiede un numero che stabilisce il colore \\
+\hline
+\end{DoxyParams}
+
+
+Definizione alla linea 358 del file utility.\+c.
+
+
+
+Referenziato da add\+Credit(), add\+Game(), add\+Hours(), game\+List\+U(), main(), mod\+User(), new\+User(), print\+File\+Games\+User(), e search\+Game\+Store().
+
+\mbox{\Hypertarget{utility_8h_a2fab686afeab3a63f6124f2c5a0d9a26}\label{utility_8h_a2fab686afeab3a63f6124f2c5a0d9a26}} 
+\index{utility.\+h@{utility.\+h}!ver\+Email@{ver\+Email}}
+\index{ver\+Email@{ver\+Email}!utility.\+h@{utility.\+h}}
+\subsubsection{\texorpdfstring{ver\+Email()}{verEmail()}}
+{\footnotesize\ttfamily int ver\+Email (\begin{DoxyParamCaption}\item[{char $\ast$}]{email }\end{DoxyParamCaption})}
+
+
+
+La funzione controlla che l\textquotesingle{}e-\/mail inserita sia valida o no. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt in}  & {\em email} & che passo per verificare la validita\textquotesingle{} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Restituisce}
+res = 0 se valida, res != 0 altrimenti
+\end{DoxyReturn}
+La funzione controlla che l\textquotesingle{}e-\/mail inserita sia valida o no.
+
+
+\begin{DoxyParams}{Parametri}
+{\em email} & che passo per verificare la validita\textquotesingle{} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Restituisce}
+res = 0 se valida, res != 0 altrimenti 
+\end{DoxyReturn}
+
+
+Definizione alla linea 37 del file utility.\+c.
+
+
+
+Referenziato da mod\+User(), e new\+User().
+

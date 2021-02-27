@@ -1,0 +1,713 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>CasoDiStudio: Riferimenti per il file src/utility.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CasoDiStudio
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Cerca');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funzioni</a>  </div>
+  <div class="headertitle">
+<div class="title">Riferimenti per il file utility.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="users_8h_source.html">users.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="utility_8h_source.html">utility.h</a>&quot;</code><br />
+<code>#include &lt;regex.h&gt;</code><br />
+<code>#include &lt;windows.h&gt;</code><br />
+</div>
+<p><a href="utility_8c_source.html">Vai al codice sorgente di questo file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funzioni</h2></td></tr>
+<tr class="memitem:a1fe98daabbc043c56f0019af8f80aa23"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#a1fe98daabbc043c56f0019af8f80aa23">searchMail</a> (<a class="el" href="structgamer.html">gamer</a> gamers[], int contUs, char *email)</td></tr>
+<tr class="memdesc:a1fe98daabbc043c56f0019af8f80aa23"><td class="mdescLeft">&#160;</td><td class="mdescRight">La funzione svolge il compito di controllare se un'e-mail e' presente o no, effettua la ricerca confrontando ogni campo email di ogni giocatore presente nel database.  <a href="#a1fe98daabbc043c56f0019af8f80aa23">Continua...</a><br /></td></tr>
+<tr class="separator:a1fe98daabbc043c56f0019af8f80aa23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fab686afeab3a63f6124f2c5a0d9a26"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#a2fab686afeab3a63f6124f2c5a0d9a26">verEmail</a> (char *email)</td></tr>
+<tr class="memdesc:a2fab686afeab3a63f6124f2c5a0d9a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">La funzione controlla che l'e-mail inserita sia valida secondo l'espressione regolare.  <a href="#a2fab686afeab3a63f6124f2c5a0d9a26">Continua...</a><br /></td></tr>
+<tr class="separator:a2fab686afeab3a63f6124f2c5a0d9a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a227e00149ea0b20c7a68c7008f73de1f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#a227e00149ea0b20c7a68c7008f73de1f">levelCheck</a> (int played, int levelOld)</td></tr>
+<tr class="memdesc:a227e00149ea0b20c7a68c7008f73de1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">La funzione controlla se il livello del giocatore può essere aumentato oppure no restituisce il livello incrementato se possibile altrimenti restituisce lo stesso livello.  <a href="#a227e00149ea0b20c7a68c7008f73de1f">Continua...</a><br /></td></tr>
+<tr class="separator:a227e00149ea0b20c7a68c7008f73de1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9800b0f00e8105e4a50c1f4fc742f9c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#a9800b0f00e8105e4a50c1f4fc742f9c2">ordLevel</a> (<a class="el" href="structgamer.html">gamer</a> gamers[], int contUs)</td></tr>
+<tr class="memdesc:a9800b0f00e8105e4a50c1f4fc742f9c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">La procedura opera un ordinamento decrescente in base al livello di ogni giocatore e ne visualizza la lista aggiornata.  <a href="#a9800b0f00e8105e4a50c1f4fc742f9c2">Continua...</a><br /></td></tr>
+<tr class="separator:a9800b0f00e8105e4a50c1f4fc742f9c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9615fbeadd58690a9cc6deacc292e20d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#a9615fbeadd58690a9cc6deacc292e20d">gameListU</a> (<a class="el" href="structgamer.html">gamer</a> gamers[], <a class="el" href="structgame.html">game</a> store[], <a class="el" href="structowned.html">owned</a> relat[], int relat_len, int contUs, int contGa)</td></tr>
+<tr class="memdesc:a9615fbeadd58690a9cc6deacc292e20d"><td class="mdescLeft">&#160;</td><td class="mdescRight">La procedura permette di visualizzare la lista dei videogiochi posseduti da un giocatore, effettua dei controlli sull'inserimento e se l'operazione va a buon fine mostra la lista dei giochi.  <a href="#a9615fbeadd58690a9cc6deacc292e20d">Continua...</a><br /></td></tr>
+<tr class="separator:a9615fbeadd58690a9cc6deacc292e20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeb133f9e44cef243f6137ff8935c69d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#abeb133f9e44cef243f6137ff8935c69d">searchGame</a> (<a class="el" href="structgame.html">game</a> store[], int contGa, char *codeGa)</td></tr>
+<tr class="memdesc:abeb133f9e44cef243f6137ff8935c69d"><td class="mdescLeft">&#160;</td><td class="mdescRight">La funzione svolge il compito di controllare se un videogioco e' presente o no, effettua la ricerca confrontando la chiave di ricerca con ogni campo codice del gioco di ogni videogioco presente nel database.  <a href="#abeb133f9e44cef243f6137ff8935c69d">Continua...</a><br /></td></tr>
+<tr class="separator:abeb133f9e44cef243f6137ff8935c69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a631958fac2903c4626af0aa685957047"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#a631958fac2903c4626af0aa685957047">searchGameStore</a> (<a class="el" href="structgame.html">game</a> store[], int contGa)</td></tr>
+<tr class="memdesc:a631958fac2903c4626af0aa685957047"><td class="mdescLeft">&#160;</td><td class="mdescRight">E' una procedura che si occupa di ricercare un videogioco nello store e se il videogioco e' presente visualizza tutti i dati associati ad esso.  <a href="#a631958fac2903c4626af0aa685957047">Continua...</a><br /></td></tr>
+<tr class="separator:a631958fac2903c4626af0aa685957047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a0379b49baec971efe29d96c29e9387"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#a2a0379b49baec971efe29d96c29e9387">printUser</a> (<a class="el" href="structgamer.html">gamer</a> gamers[], int i)</td></tr>
+<tr class="memdesc:a2a0379b49baec971efe29d96c29e9387"><td class="mdescLeft">&#160;</td><td class="mdescRight">La procedura visualizza tutti i dati di un giocatore.  <a href="#a2a0379b49baec971efe29d96c29e9387">Continua...</a><br /></td></tr>
+<tr class="separator:a2a0379b49baec971efe29d96c29e9387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a8caf77687fb8939a0278375bc95ee3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#a1a8caf77687fb8939a0278375bc95ee3">printGame</a> (<a class="el" href="structgame.html">game</a> store[], int i)</td></tr>
+<tr class="memdesc:a1a8caf77687fb8939a0278375bc95ee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">La procedura visualizza tutti i dati relativi ad un videogioco.  <a href="#a1a8caf77687fb8939a0278375bc95ee3">Continua...</a><br /></td></tr>
+<tr class="separator:a1a8caf77687fb8939a0278375bc95ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac90d2f410fef35f805505f2433b09059"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#ac90d2f410fef35f805505f2433b09059">printFile</a> (<a class="el" href="structgamer.html">gamer</a> gamers[], int contUs)</td></tr>
+<tr class="memdesc:ac90d2f410fef35f805505f2433b09059"><td class="mdescLeft">&#160;</td><td class="mdescRight">La procedura scrive su file tutti i dati dei giocatori.  <a href="#ac90d2f410fef35f805505f2433b09059">Continua...</a><br /></td></tr>
+<tr class="separator:ac90d2f410fef35f805505f2433b09059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebe9fa1b0659bd2aa71a125b51657cf6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#aebe9fa1b0659bd2aa71a125b51657cf6">printFileRelat</a> (<a class="el" href="structowned.html">owned</a> relat[], int relat_len)</td></tr>
+<tr class="memdesc:aebe9fa1b0659bd2aa71a125b51657cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">La procedura scrive su file tutte le relazioni &lt;giocatore-videogioco&gt; che sono presenti sul database.  <a href="#aebe9fa1b0659bd2aa71a125b51657cf6">Continua...</a><br /></td></tr>
+<tr class="separator:aebe9fa1b0659bd2aa71a125b51657cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19534711e147560355f78df6b59f50a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#a19534711e147560355f78df6b59f50a9">printFileGamesUser</a> (<a class="el" href="structgamer.html">gamer</a> gamers[], <a class="el" href="structgame.html">game</a> store[], <a class="el" href="structowned.html">owned</a> relat[], int relat_len, int contUs, int contGa)</td></tr>
+<tr class="memdesc:a19534711e147560355f78df6b59f50a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">La procedura scrive su file la libreria dei videogiochi di un giocatore, inserendo un nickname se e' presente, verra' creato un nuovo file con la libreria.  <a href="#a19534711e147560355f78df6b59f50a9">Continua...</a><br /></td></tr>
+<tr class="separator:a19534711e147560355f78df6b59f50a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc681bb198f3c3fb6b19c2d1f89bc8b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8c.html#afc681bb198f3c3fb6b19c2d1f89bc8b1">SetColor</a> (short Color)</td></tr>
+<tr class="memdesc:afc681bb198f3c3fb6b19c2d1f89bc8b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">La procedura consente di cambiare il colore del testo.  <a href="#afc681bb198f3c3fb6b19c2d1f89bc8b1">Continua...</a><br /></td></tr>
+<tr class="separator:afc681bb198f3c3fb6b19c2d1f89bc8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentazione delle funzioni</h2>
+<a id="a9615fbeadd58690a9cc6deacc292e20d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9615fbeadd58690a9cc6deacc292e20d">&#9670;&nbsp;</a></span>gameListU()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gameListU </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgamer.html">gamer</a>&#160;</td>
+          <td class="paramname"><em>gamers</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structgame.html">game</a>&#160;</td>
+          <td class="paramname"><em>store</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structowned.html">owned</a>&#160;</td>
+          <td class="paramname"><em>relat</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>relat_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contUs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contGa</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La procedura permette di visualizzare la lista dei videogiochi posseduti da un giocatore, effettua dei controlli sull'inserimento e se l'operazione va a buon fine mostra la lista dei giochi. </p>
+<p>La procedura visualizza la lista dei videogiochi posseduti da un giocatore.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gamers</td><td>e' l'array contenente i dati dei giocatori </td></tr>
+    <tr><td class="paramname">store</td><td>e' l'array contenente i dati dei videogiochi </td></tr>
+    <tr><td class="paramname">relat</td><td>e' l'array contenente i possessi dei videogiochi da parte dei giocatori </td></tr>
+    <tr><td class="paramname">relat_len</td><td>e' una variabile che memorizza quante relazioni &lt;videogioco-giocatore&gt; ci sono </td></tr>
+    <tr><td class="paramname">contUs</td><td>e' il contatore del numero dei giocatori </td></tr>
+    <tr><td class="paramname">contGa</td><td>e' il contatore del numero dei videogiochi </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00113">113</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenzia <a class="el" href="users_8c_source.html#l00339">searchUser()</a>, e <a class="el" href="utility_8c_source.html#l00358">SetColor()</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="_caso_di_studio_8c_source.html#l00017">main()</a>.</p>
+
+</div>
+</div>
+<a id="a227e00149ea0b20c7a68c7008f73de1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a227e00149ea0b20c7a68c7008f73de1f">&#9670;&nbsp;</a></span>levelCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int levelCheck </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>played</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>levelOld</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La funzione controlla se il livello del giocatore può essere aumentato oppure no restituisce il livello incrementato se possibile altrimenti restituisce lo stesso livello. </p>
+<p>La funzione calcola il possibile incremento del livello.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">played</td><td>e' la variabile che contiene le ore di gioco che si stanno aumentando </td></tr>
+    <tr><td class="paramname">levelOld</td><td>e' il livello che passo alla funzione al momento della verifica dell'incremento </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>levelOld livello incrementato oppure stesso livello di partenza </dd></dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00055">55</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="users_8c_source.html#l00277">addHours()</a>.</p>
+
+</div>
+</div>
+<a id="a9800b0f00e8105e4a50c1f4fc742f9c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9800b0f00e8105e4a50c1f4fc742f9c2">&#9670;&nbsp;</a></span>ordLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ordLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgamer.html">gamer</a>&#160;</td>
+          <td class="paramname"><em>gamers</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contUs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La procedura opera un ordinamento decrescente in base al livello di ogni giocatore e ne visualizza la lista aggiornata. </p>
+<p>La procedura opera un ordinamento decrescente in base al livello dei giocatori.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gamers</td><td>e' l'array contenente i dati dei giocatori </td></tr>
+    <tr><td class="paramname">contUs</td><td>e' il contatore del numero dei giocatori </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00078">78</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenzia <a class="el" href="users_8h_source.html#l00033">gamer::level</a>, <a class="el" href="utility_8h_source.html#l00019">MAX</a>, e <a class="el" href="utility_8c_source.html#l00223">printUser()</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="_caso_di_studio_8c_source.html#l00017">main()</a>.</p>
+
+</div>
+</div>
+<a id="ac90d2f410fef35f805505f2433b09059"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac90d2f410fef35f805505f2433b09059">&#9670;&nbsp;</a></span>printFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgamer.html">gamer</a>&#160;</td>
+          <td class="paramname"><em>gamers</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contUs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La procedura scrive su file tutti i dati dei giocatori. </p>
+<p>La procedura stampa su file tutti i dati dei giocatori.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gamers</td><td>e' l'array contenente i dati dei giocatori </td></tr>
+    <tr><td class="paramname">contUs</td><td>e' il contatore del numero dei giocatori </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00258">258</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="_caso_di_studio_8c_source.html#l00017">main()</a>.</p>
+
+</div>
+</div>
+<a id="a19534711e147560355f78df6b59f50a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19534711e147560355f78df6b59f50a9">&#9670;&nbsp;</a></span>printFileGamesUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printFileGamesUser </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgamer.html">gamer</a>&#160;</td>
+          <td class="paramname"><em>gamers</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structgame.html">game</a>&#160;</td>
+          <td class="paramname"><em>store</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structowned.html">owned</a>&#160;</td>
+          <td class="paramname"><em>relat</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>relat_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contUs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contGa</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La procedura scrive su file la libreria dei videogiochi di un giocatore, inserendo un nickname se e' presente, verra' creato un nuovo file con la libreria. </p>
+<p>La procedura scrive su file la libreria dei videogiochi di un giocatore.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gamers</td><td>e' l'array contenente i dati dei giocatori </td></tr>
+    <tr><td class="paramname">store</td><td>e' l'array contenente i dati dei videogiochi </td></tr>
+    <tr><td class="paramname">relat</td><td>e' l'array contenente tutte le relazioni &lt;giocatore-videogioco&gt; </td></tr>
+    <tr><td class="paramname">relat_len</td><td>e' la dimensione dell'array e quindi il numero delle relazioni presenti </td></tr>
+    <tr><td class="paramname">contUs</td><td>e' il contatore del numero dei giocatori </td></tr>
+    <tr><td class="paramname">contGa</td><td>e' il contatore del numero dei videogiochi </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00303">303</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenzia <a class="el" href="users_8c_source.html#l00339">searchUser()</a>, e <a class="el" href="utility_8c_source.html#l00358">SetColor()</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="_caso_di_studio_8c_source.html#l00017">main()</a>.</p>
+
+</div>
+</div>
+<a id="aebe9fa1b0659bd2aa71a125b51657cf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebe9fa1b0659bd2aa71a125b51657cf6">&#9670;&nbsp;</a></span>printFileRelat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printFileRelat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structowned.html">owned</a>&#160;</td>
+          <td class="paramname"><em>relat</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>relat_len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La procedura scrive su file tutte le relazioni &lt;giocatore-videogioco&gt; che sono presenti sul database. </p>
+<p>La procedura stampa su file tutte le relazioni &lt;giocatore-videogioco&gt; che sono presenti sul database.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">relat</td><td>e' l'array contenente tutte le relazioni &lt;giocatore-videogioco&gt; </td></tr>
+    <tr><td class="paramname">relat_len</td><td>e' la dimensione dell'array e quindi il numero delle relazioni presenti </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00279">279</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="_caso_di_studio_8c_source.html#l00017">main()</a>.</p>
+
+</div>
+</div>
+<a id="a1a8caf77687fb8939a0278375bc95ee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a8caf77687fb8939a0278375bc95ee3">&#9670;&nbsp;</a></span>printGame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printGame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgame.html">game</a>&#160;</td>
+          <td class="paramname"><em>store</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La procedura visualizza tutti i dati relativi ad un videogioco. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">store</td><td>e' l'array contenente i dati dei videogiochi </td></tr>
+    <tr><td class="paramname">i</td><td>e' la posizione nell'array del videogioco di cui si vogliono visualizzare i dati </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00241">241</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="users_8c_source.html#l00366">addGame()</a>, e <a class="el" href="_caso_di_studio_8c_source.html#l00017">main()</a>.</p>
+
+</div>
+</div>
+<a id="a2a0379b49baec971efe29d96c29e9387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a0379b49baec971efe29d96c29e9387">&#9670;&nbsp;</a></span>printUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printUser </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgamer.html">gamer</a>&#160;</td>
+          <td class="paramname"><em>gamers</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La procedura visualizza tutti i dati di un giocatore. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gamers</td><td>e' l'array contenente i dati dei giocatori </td></tr>
+    <tr><td class="paramname">i</td><td>e' la posizione dell'array del giocatore di cui si vogliono visualizzare i dati </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00223">223</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="_caso_di_studio_8c_source.html#l00017">main()</a>, e <a class="el" href="utility_8c_source.html#l00078">ordLevel()</a>.</p>
+
+</div>
+</div>
+<a id="abeb133f9e44cef243f6137ff8935c69d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeb133f9e44cef243f6137ff8935c69d">&#9670;&nbsp;</a></span>searchGame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int searchGame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgame.html">game</a>&#160;</td>
+          <td class="paramname"><em>store</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contGa</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>codeGa</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La funzione svolge il compito di controllare se un videogioco e' presente o no, effettua la ricerca confrontando la chiave di ricerca con ogni campo codice del gioco di ogni videogioco presente nel database. </p>
+<p>La funzione svolge il compito di controllare se un videogioco e' presente o no nel database.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">store</td><td>e' l'array contenente i dati dei videogiochi </td></tr>
+    <tr><td class="paramname">contGa</td><td>e' il contatore del numero dei videogiochi </td></tr>
+    <tr><td class="paramname">codeGa</td><td>e' il parametro che equivale al codice del gioco che passo per effettuare la verifica, un array di caratteri </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>i = la posizione del videogioco nel database se esiste, -1 altrimenti se non esiste nessun videogioco con quel codice </dd></dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00165">165</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="users_8c_source.html#l00366">addGame()</a>, e <a class="el" href="utility_8c_source.html#l00185">searchGameStore()</a>.</p>
+
+</div>
+</div>
+<a id="a631958fac2903c4626af0aa685957047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a631958fac2903c4626af0aa685957047">&#9670;&nbsp;</a></span>searchGameStore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void searchGameStore </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgame.html">game</a>&#160;</td>
+          <td class="paramname"><em>store</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contGa</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>E' una procedura che si occupa di ricercare un videogioco nello store e se il videogioco e' presente visualizza tutti i dati associati ad esso. </p>
+<p>La procedura si occupa della ricerca di un videogioco nello store.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">store</td><td>e' l'array contenente i dati dei videogiochi </td></tr>
+    <tr><td class="paramname">contGa</td><td>e' il contatore del numero dei videogiochi </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00185">185</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenzia <a class="el" href="utility_8c_source.html#l00165">searchGame()</a>, e <a class="el" href="utility_8c_source.html#l00358">SetColor()</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="_caso_di_studio_8c_source.html#l00017">main()</a>.</p>
+
+</div>
+</div>
+<a id="a1fe98daabbc043c56f0019af8f80aa23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fe98daabbc043c56f0019af8f80aa23">&#9670;&nbsp;</a></span>searchMail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int searchMail </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgamer.html">gamer</a>&#160;</td>
+          <td class="paramname"><em>gamers</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contUs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>email</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La funzione svolge il compito di controllare se un'e-mail e' presente o no, effettua la ricerca confrontando ogni campo email di ogni giocatore presente nel database. </p>
+<p>La funzione svolge il compito di controllare se un'e-mail e' presente o no nel database.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gamers</td><td>e' l'array contenente i dati dei giocatori </td></tr>
+    <tr><td class="paramname">contUs</td><td>e' il contatore del numero dei giocatori </td></tr>
+    <tr><td class="paramname">email</td><td>e' il parametro che passo per effettuare la verifica, un array di caratteri </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>i = la posizione dell'e-mail del giocatore nel database se esiste, -1 altrimenti se non esiste nessun giocatore con quell'e-mail </dd></dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00018">18</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="users_8c_source.html#l00118">modUser()</a>, e <a class="el" href="users_8c_source.html#l00015">newUser()</a>.</p>
+
+</div>
+</div>
+<a id="afc681bb198f3c3fb6b19c2d1f89bc8b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc681bb198f3c3fb6b19c2d1f89bc8b1">&#9670;&nbsp;</a></span>SetColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetColor </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>Color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La procedura consente di cambiare il colore del testo. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Color</td><td>e' il parametro che richiede un numero che stabilisce il colore </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00358">358</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="users_8c_source.html#l00216">addCredit()</a>, <a class="el" href="users_8c_source.html#l00366">addGame()</a>, <a class="el" href="users_8c_source.html#l00277">addHours()</a>, <a class="el" href="utility_8c_source.html#l00113">gameListU()</a>, <a class="el" href="_caso_di_studio_8c_source.html#l00017">main()</a>, <a class="el" href="users_8c_source.html#l00118">modUser()</a>, <a class="el" href="users_8c_source.html#l00015">newUser()</a>, <a class="el" href="utility_8c_source.html#l00303">printFileGamesUser()</a>, e <a class="el" href="utility_8c_source.html#l00185">searchGameStore()</a>.</p>
+
+</div>
+</div>
+<a id="a2fab686afeab3a63f6124f2c5a0d9a26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fab686afeab3a63f6124f2c5a0d9a26">&#9670;&nbsp;</a></span>verEmail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int verEmail </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>email</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La funzione controlla che l'e-mail inserita sia valida secondo l'espressione regolare. </p>
+<p>La funzione controlla che l'e-mail inserita sia valida o no.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">email</td><td>che passo per verificare la validita' </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>res = 0 se valida, res != 0 altrimenti </dd></dl>
+
+<p class="definition">Definizione alla linea <a class="el" href="utility_8c_source.html#l00037">37</a> del file <a class="el" href="utility_8c_source.html">utility.c</a>.</p>
+
+<p class="reference">Referenziato da <a class="el" href="users_8c_source.html#l00118">modUser()</a>, e <a class="el" href="users_8c_source.html#l00015">newUser()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
